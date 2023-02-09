@@ -2,7 +2,7 @@ const express = require("express");
 const multer = require("multer");
 const upload = multer({dest:'uploads/'});
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 

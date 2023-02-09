@@ -1,0 +1,10 @@
+version: '0.01'
+
+services:
+  app:
+    build: ./app
+    restart: unless-stopped
+    ports:
+      - 3000:3000
+    stdin_open: true
+    tty: true
